@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 100px;
+    color: aliceblue;
+    align-items: center;
+    position: fixed;
+    top: 0px;  
+}
+.border{
+  border-radius: 50%;
+  background-color: aliceblue;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+
+}
+/* img{
+  width: 150px;
+  height: 150px; */
+/* } */
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.w{
+  color: gray;
+}
+.e{
+  color: gray;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(https://source.unsplash.com/wfh8dDlNFOk/1600x900);
+/* }
+  /* .banner div{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+  }  */ */
+  .size{
+    display: flex;
+    flex-direction: column;
+  }
+  .esas{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+  }
+  .merkez{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+  }
+  .center_1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+  }
+  .center_1 div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 10px;
+  }
+  .murad{
+    padding-top: 100px;
+  }
+  .son{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.263);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .esas{
+    font-size: 15px;
+    display: flex;
+    color: #000000;
+    flex-direction: column; 
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 70px;
+
+  }
+  .center{
+    width: 100%;
+    height: 300px;
+    /* height: 90vh; */
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/b/b1/%C3%89clipse_partielle_de_la_lune%2C_Sayada%2C_16_juillet_2019_Maximum.jpg) 
+  }
+  .son{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 10px; */
+    background-color: rgb(45, 45, 45);
+    color: aliceblue;
+  }
+  .single{
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+  .the{
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+
+
